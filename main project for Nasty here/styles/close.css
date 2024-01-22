@@ -1,0 +1,118 @@
+*{
+    cursor: none;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    width: 1237px;
+    height: 628px;
+    margin-left: 191px;
+    margin-top: 145px;
+}
+.nav-pages{
+    width: 1227px;
+    height: 126px;
+}
+.pages{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1020px;
+    height: 109px;
+    margin-bottom: 17px;
+}
+.nav-pages {
+    position: relative;
+}
+.nav-pages:after {
+	content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 1px;  /*Высота линии*/
+    background-color: #FFF;  /*Цвет подчеркивания при исчезании линии*/
+    transition: width 1s;  /*Время эффекта*/
+}
+
+.nav-pages:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 1px; /* Высота линии */
+    background-color: #FFF; /* Цвет подчеркивания при появлении линии*/
+    transition: width 1s;  /* Время эффекта */
+}
+.sidenav{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color: #262630;
+    overflow-x: hidden;
+    transition: 1s;
+    z-index: 99999;
+}
+.sidenav a {
+    transition: 0.1s;
+}
+span{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 93px;
+    height: 16.314px;
+}
+.close{
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 46px;
+    margin-left: 37px;
+    width: 93px;
+    height: 16.314px;
+}
+svg{
+    margin-right: 5.69px;
+}
+@media all and (max-width: 1024px){
+    .pages{
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 289px;
+        height: 55px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        width: 289px;
+        height: 55px;
+        margin-left: 26px;
+        margin-top: 145px;
+    }
+    .close{
+        margin-top: 29px;
+        margin-left: 28px;
+    }
+}

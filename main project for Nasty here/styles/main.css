@@ -1,0 +1,482 @@
+        /* || GENERAL STYLES */
+*{
+    font-family: 'Manrope', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+    z-index: 100;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+        /* || END OF GENERAL STYLES */
+
+        /*HEADER SECTION START*/
+header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 271px;
+    top: 0;
+}
+.header-main-section{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
+    height: 200px;
+    margin-top: 45px;
+    margin-left: 38px;
+}
+.active-menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.burger{
+    padding-right: 10px;
+    width: 15px;
+    height: 7px;
+}
+svg{
+    padding-bottom: 2px;
+}
+.menu{
+    width: 70px;
+    height: 15px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin-top: 22px;
+    height: 16px;
+}
+li{
+    list-style: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Manrope;
+}
+a{
+    text-decoration: none;
+    color: #969696;
+}
+.menu-text{
+    color: #969696;
+    font-family: Manrope;
+    font-size: 12px;
+}
+a.main-menu-class:hover{
+    color: #000000;
+}
+.main-menu-class{
+    transition: 0.25s;
+}
+
+        /*@MEDIA SECTION*/
+@media all and (max-width: 1024px){
+            .menu-list{
+                display: none;
+            }
+            .header-main-section{
+                width: 100%;
+                height: 100px;
+                margin-top: 27px;
+                margin-left: 28px;
+            }
+        }
+        /*END OF @MEDIA SECTION*/
+
+        /*FOOTER SECTION*/
+
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    background: #262630;
+    height: 746px;
+    margin-top: 5rem;
+}
+.footer-main-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 746px;
+}
+.footer-main-section-for-btns-and-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 500px;
+}
+.footer-main-text{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 400px;
+}
+.footer-main-text-section{
+    margin-top: 199px;
+    margin-left: 504px;
+    width: 788px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.6%;
+}
+#avatar-for-footer{
+    width: 63px;
+    height: 63px;
+    border-radius: 63px;
+}
+.footer-main-section-btns{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%;
+}
+#email-btn{
+    width: 145px;
+    height: 45px;
+    border-radius: 29.5px;
+    border: 1px solid #FFF;
+    margin-left: 507px;
+    margin-top: 28px;
+    transition: 0.8s, border 0.5s ease;
+}
+#email-btn:hover{
+    border: 1px solid #262630;
+    border-radius: 29.5px;
+    background: #2264DC;
+}
+#email-btn-text{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+    margin-left: 31px;
+}
+#number-btn{
+    width: 181px;
+    height: 45px;
+    border-radius: 29.5px;
+    border: 1px solid #FFF;
+    margin-left: 86px;
+    margin-top: 28px;
+    transition: 0.8s, border 0.5s ease-in-out;
+}
+#number-btn:hover{
+    border: 1px solid #262630;
+    border-radius: 29.5px;
+    background: #2264DC;
+}
+#number-btn-text{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 119px;
+    margin-top: 13px;
+    margin-left: 31px;
+}
+#writing-btn{
+    width: 126px;
+    height: 45px;
+    border-radius: 29.5px;
+    background: #2264DC;
+    margin-left: 398px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#writing-btn-text{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+    margin-left: 31px;
+}
+.footer-secondary-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 246px;
+}
+.line-breaking-through{
+    height: 210px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.the-linebreak{
+    border: solid 1px #FFF;
+    margin-bottom: 2px;
+    width: 1537px;
+    margin-left: 191px;
+}
+.external-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 14px;
+    margin-bottom: 52px;
+}
+#year2023{
+    margin-left: 191px;
+    margin-right: 1254px;
+    width: 44.872px;
+}
+#Behance{
+    margin-right: 43px;
+    width: 54.969px;
+    transition: 0.28s ease-in-out;
+}
+#Github{
+    margin-right: 40px;
+    width: 42.629px;
+    transition: 0.28s ease-in-out;
+}
+#Telegram{
+    margin-right: 191px;
+    width: 58.334px;
+    transition: 0.28s ease-in-out;
+}
+.footer-menu-class{
+    color: #FFF;
+}
+.footer-menu-class:hover{
+    color: #969696
+}
+
+        /*@MEDIA SECTION*/
+@media all and (max-width: 1024px) {
+        footer{
+            position: relative;
+            width:  100%;
+            height: 601px;
+            bottom: 0;
+        }
+        .footer-main-section{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+            bottom: 0;
+            height: 601px;
+        }
+        .footer-main-section-for-btns-and-text{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: auto;
+        }
+        .footer-main-text{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            height: auto;
+        }
+        .footer-main-text-section{
+            margin: 0;
+            margin-left: 28px;
+            margin-bottom: 35px;
+            margin-top: 50px;
+            width: 316px;
+            height: 133px;
+            flex-shrink: 0;
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 119.26%; /* 47.704px */
+        }
+        #avatar-for-footer{
+            display: none;
+        }
+        .footer-main-section-btns{
+            width: 100%;
+            align-items: center;
+            gap: 25px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 100%;
+        }
+        #email-btn{
+            width: 319px;
+            height: 52px;
+            border-radius: 29.5px;
+            border: 1px solid #FFF;
+            margin-left: 0;
+            margin-top: 0;
+            transition: 0.8s, border 0.5s ease;
+        }
+        #email-btn:hover{
+            border: 1px solid #262630;
+            border-radius: 29.5px;
+            background: #2264DC;
+        }
+        #email-btn-text{
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 16px;
+            margin-left: 116px;
+        }
+        #number-btn{
+            width: 319px;
+            height: 52px;
+            border-radius: 29.5px;
+            border: 1px solid #FFF;
+            margin-left: 0;
+            margin-top: 0;
+            transition: 0.8s, border 0.5s ease-in-out;
+        }
+        #number-btn:hover{
+            border: 1px solid #262630;
+            border-radius: 29.5px;
+            background: #2264DC;
+        }
+        #number-btn-text{
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 119px;
+            margin-top: 17px;
+            margin-left: 97px;
+        }
+        #writing-btn{
+            margin-top: 44px;
+            width: 317.948px;
+            height: 45px;
+            border-radius: 29.5px;
+            background: #2264DC;
+            margin-left: 0;
+            margin-top: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        #writing-btn-text{
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 13px;
+            margin-left: 127px;
+        }
+        .footer-secondary-section{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: auto;
+        }
+        .line-breaking-through{
+            display: none;
+        }
+        .the-linebreak{
+            display: none;
+        }
+        .external-links{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            color: #FFF;
+            bottom: 0;
+            gap: 19px;
+            font-family: Manrope;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 59px;
+            margin-bottom: 0;
+        }
+        #year2023{
+            margin-left: 28px;
+            margin-right: 0;
+            width: 100%;
+        }
+        #Behance{
+            margin-right: 0;
+            width: 54.969px;
+            transition: 0.28s ease-in-out;
+        }
+        #Github{
+            margin-right: 0;
+            width: 42.629px;
+            transition: 0.28s ease-in-out;
+        }
+        #Telegram{
+            margin-right: 28px;
+            width: 58.334px;
+            transition: 0.28s ease-in-out;
+        }
+        .footer-menu-class{
+            color: #FFF;
+        }
+        .footer-menu-class:hover{
+            color: #969696
+        }
+        }
+        /*END OF @MEDIA SECTION*/
+
+        /*END OF FOOTER SECTION*/

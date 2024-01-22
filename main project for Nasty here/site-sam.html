@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles/site-sam.css">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles/close.css">
+    <link rel="stylesheet" href="styles/cursor.css">
+    <title>Сайт SAM</title>
+</head>
+
+<body>
+<div id="cursor">
+  <div class="cursor--inner"></div>
+</div>
+
+
+        <header>
+            <div class="header-main-section">
+                <div class="active-menu">
+                    <div class="burger" onclick="openNav()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="7" viewBox="0 0 15 7" fill="none">
+                            <rect x="15" y="1" width="15" height="0.999998" transform="rotate(-180 15 1)" fill="black"/>
+                            <rect x="15" y="7" width="15" height="0.999998" transform="rotate(-180 15 7)" fill="black"/>
+                        </svg>
+                    </div>
+                    <div class="menu" onclick="openNav()">Меню</div>
+                </div>
+                <div class="text-menu">
+                    <ul class="menu-list" id="navbar" style="transition: 0.8s;">
+                        <li><a class="main-menu-class" href="hello-page.html">Главная</a></li>
+                        <li><a class="main-menu-class" href="projects.html">Работы</a></li>
+                        <li><a class="main-menu-class" href="about.html">Обо мне</a></li>
+                        <li><a class="main-menu-class" href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+
+             <div id="mySidenav" class="sidenav">
+                <div class="close">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                <svg style="padding-bottom: 0;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <rect x="10.6064" y="11.3137" width="15" height="0.999998" transform="rotate(-135 10.6064 11.3137)"
+                          fill="white"/>
+                    <rect x="11.3135" y="0.707031" width="15" height="0.999998" transform="rotate(135 11.3135 0.707031)"
+                          fill="white"/>
+                </svg>
+                    <span>Закрыть</span>
+                </a>
+                </div>
+                <div class="navigation">
+                    <a href="hello-page.html"><div class="nav-pages"><div class="pages">Главная</div></div></a>
+                    <a href="projects.html"><div class="nav-pages"><div class="pages">Работы</div></div></a>
+                    <a href="about.html"><div class="nav-pages"><div class="pages">Обо мне</div></div></a>
+                    <a href="contacts.html"><div class="nav-pages"><div class="pages">Контакты</div></div></a>
+                </div>
+            </div>
+        </header>
+
+
+
+        <main>
+            <div class="headline">Сайт SAM</div>
+            <div class="additional-data">
+                <div class="additional-data-one">
+                    Задание, в котором нужно было сделать редизайн для сайта sam (street atr museum)
+                </div>
+                <div class="additional-data-two">
+                    В рамказ этого задания было разработано пять страниц : о нас, новости музея;
+                    о музее; шаблон для выставок; мероприятия музея.
+                </div>
+            </div>
+            <div class="photo-section-one">
+                <img src="images/notebook1.png">
+            </div>
+            <div class="photo-section-two">
+                <div class="photo-one">
+                    <img src="images/phone1.png">
+                </div>
+                <div class="photo-two">
+                    <img src="images/ipad1.png">
+                </div>
+            </div>
+            <div class="photo-section-three">
+                <img src="images/notebook2.png">
+            </div>
+        </main>
+
+
+
+        <footer>
+            <div class="footer-main-section">
+                <div class="footer-main-section-for-btns-and-text">
+                    <div class="footer-main-text">
+                        <div class="footer-main-text-section">
+                            <img src="images/avatar-for-footer.jpg" id="avatar-for-footer">
+                            Есть идея?<br>
+                            Давайте обсудим ее
+                        </div>
+                    </div>
+                    <div class="footer-main-section-btns">
+                        <a href="mailto:mail.ri@bk.ru" target="_blank"><div id="email-btn">
+                            <div id="email-btn-text">mail.ri@bk.ru</div>
+                        </div></a>
+                        <div id="number-btn">
+                            <div id="number-btn-text">+ 8 983 254 15 65</div>
+                        </div>
+                        <a href="https://t.me/Civly" target="_blank">
+                        <div id="writing-btn">
+                            <div id="writing-btn-text">Написать</div>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="footer-secondary-section">
+                    <div class="line-breaking-through">
+                        <div class="the-linebreak"></div>
+                    </div>
+                    <div class="external-links">
+                        <div id="year2023">© 2023</div>
+                        <a href="https://www.behance.net/anastasiachernova" target="_blank"
+                           class="footer-menu-class"><div id="Behance">Behance</div></a>
+                        <a href="https://github.com/Frerioc" target="_blank"
+                           class="footer-menu-class"><div id="Github">Github</div></a>
+                        <a href="https://t.me/Civly" target="_blank"
+                           class="footer-menu-class"><div id="Telegram">Telegram</div></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+<script src="js/script-menu.js"></script>
+<script src="js/menu-leaving.js"></script>
+<script src="js/cursor.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+*{
+    cursor: none;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    height: 2147px;
+}
+.headline{
+    height: 109px;
+    width: 1254px;
+    margin-left: 343px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.additional-data{
+    margin-top: 65px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    gap: 177.47px;
+}
+.additional-data-one{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 444.535px;
+    margin-left: 504px;
+}
+.additional-data-two{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 413.427px;
+}
+.photo-section-one{
+    width: 1222px;
+    height: 551px;
+    margin-left: 507px;
+    margin-top: 95px;
+    margin-bottom: 18px;
+
+}
+.photo-section-two{
+    width: 1222px;
+    height: 551px;
+    display: flex;
+    gap: 19.49px;
+    flex-direction: row;
+    margin-left: 507px;
+    margin-bottom: 18px;
+}
+.photo-one{
+    width: 318.656px;
+    height: 551px;
+}
+.photo-two{
+    width: 883.855px;
+    height: 551px;
+}
+.photo-section-three{
+    width: 1222px;
+    height: 551px;
+    margin-left: 507px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

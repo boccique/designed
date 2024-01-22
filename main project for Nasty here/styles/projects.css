@@ -1,0 +1,227 @@
+*{
+    cursor: none;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    height: 4403px;
+}
+.main-text-section{
+    width: 1254px;
+    margin-left: 343px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main-photo-nav-section{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 1200px;
+}
+.filter{
+    height: 100%;
+    width: 41.95%;
+}
+.text-block{
+    margin-top: 65px;
+    width: 90px;
+    height: 150px;
+    margin-left: 347px;
+}
+.text-block-main{
+    width: 80px;
+    height: 15px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.text-block-secondary{
+    color: #969696;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.photo-section-main{
+    height: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 56px;
+}
+.photo-section-first{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 65px;
+    margin-right: 173px;
+}
+.photo-section-one{
+    width: 443px;
+    height: 530px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.photo-site-myself{
+    display: flex;
+}
+.text-site-myself{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#mysite{
+    width: 444px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.photo-section-two{
+    width: 443px;
+    height: 530px;
+}
+.photo-site-mama-mila{
+    display: flex;
+}
+#mamamila{
+    width: 443px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.text-site-mama-mila{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.photo-section-secondary{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 173px;
+}
+.photo-section-three{
+    width: 443px;
+    height: 530px;
+}
+.photo-identity-nelepizza{
+    display: flex;
+}
+#nelepizza{
+    width: 444px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.text-identity-nelepizza{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.photo-section-four{
+    width: 443px;
+    height: 530px;
+}
+.photo-from-table{
+    display: flex;
+}
+#from-table{
+    width: 443px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.text-from-table{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn-section-more{
+    width: 157.903px;
+    height: 45px;
+    border-radius: 29.5px;
+    border: 1px solid #000;
+    background: #262630;
+    margin-left: 0px;
+}
+#see-more{
+    width: 119px;
+    margin-left: 19px;
+    margin-top: 13px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.photo-section-others{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 906px;
+    height: 2900px;
+    left: 798px;
+    gap: 56px;
+}
+.sec{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 530px;
+    gap: 20px;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 444px;
+}
+.img-sec{
+    width: 443px;
+    height: 477px;
+}
+.text-sec{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.x{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

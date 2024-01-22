@@ -1,0 +1,176 @@
+main{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    height: 1759px;
+}
+.hello-block-section{
+    color: #000;
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1254px;
+    margin-left: 343px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hello-section-controller{
+    margin-top: 65px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.hello-section1{
+    width: 444.535px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hello-section2{
+    width: 413.427px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 57.57px;
+    margin-left: 177.47px;
+}
+.photo-section-main{
+    height: 1500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 56px;
+}
+.photo-section-first{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 95px;
+    margin-right: 173px;
+}
+.photo-section-one{
+    width: 602px;
+    height: 530px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.photo-site-myself{
+    display: flex;
+}
+.text-site-myself{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#mysite{
+    width: 602px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.photo-section-two{
+    width: 602px;
+    height: 530px;
+}
+.photo-site-mama-mila{
+    display: flex;
+}
+#mamamila{
+    width: 602px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.text-site-mama-mila{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.photo-section-secondary{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 173px;
+}
+.photo-section-three{
+    width: 602px;
+    height: 530px;
+}
+.photo-identity-nelepizza{
+    display: flex;
+}
+#nelepizza{
+    width: 602px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.text-identity-nelepizza{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.photo-section-four{
+    width: 602px;
+    height: 530px;
+}
+.photo-from-table{
+    display: flex;
+}
+#from-table{
+    width: 602px;
+    height: 477px;
+    border-radius: 18px;
+    margin-bottom: 28px;
+}
+.text-from-table{
+    color: #000;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn-section-more{
+    width: 157.903px;
+    height: 45px;
+    border-radius: 29.5px;
+    border: 1px solid #000;
+    background: #262630;
+    margin-left: 506px;
+}
+#see-more{
+    width: 119px;
+    margin-left: 19px;
+    margin-top: 13px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
