@@ -4,4 +4,11 @@
 BIGGEST
 comment!*/
 
-alert("I am The Greatest Java Script language!")
+// alert("I am The Greatest JavaScript language!")
+
+let message;
+message = "Yahoo!";
+alert(message);
+
+let message1 = "YAHOO!";
+alert(message1)
