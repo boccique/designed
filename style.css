@@ -1,0 +1,12 @@
+*{
+    font-family: Nunito, serif;
+    background: #ecdada;
+}
+
+p{
+    font-size: 2em;
+    /*border: ;*/
+    display: flex;
+    width: 500px;
+    margin: 22.5%;
+}
