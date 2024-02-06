@@ -18,3 +18,6 @@ alert(`I am actually ${being}`);*/
 // result = confirm("Are you this dummy and pretty kitty here? 🐈");
 
 
+let LoveQuestion = prompt(`Do you love me? pick (yes/no)`);
+if(LoveQuestion === `yes`) alert(`I love you too!`);
+
