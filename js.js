@@ -28,9 +28,25 @@ if(name === name){
     alert(`Hello, ${name}! And welcome to our website!`);
 }*/
 
-let LoveQuestion = prompt(`Do you love me? pick(yes/yes)`)
-if(LoveQuestion === `yes`){
-    alert(`I love you too, baby!`);
-}else{
-    alert(`But i love you...`);
-}
+// let LoveQuestion = prompt(`Do you love me? pick(yes/yes)`)
+// if(LoveQuestion === `yes`){
+//     alert(`I love you too, baby!`);
+// }else if(LoveQuestion === `no`){
+//     alert(`But i love you...`);
+// }else{
+//     alert(`...`);
+// }
+
+/*let AcceptableAge = prompt(`What's your age?`, ``);
+age = AcceptableAge;
+if (age > 18){
+    // alert(`You are old enough!`);
+    AcceptableAge = true;
+    alert(`You are old enough!`);
+} else {
+    // alert(`You are still young, go out of here, now!`);
+    AcceptableAge = false;
+    alert(AcceptableAge);
+}*/
+
+
