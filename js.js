@@ -8,15 +8,16 @@ admin = name;
 alert(`Hello ${admin}!`);*/
 
 /*
+
 let MyLove = prompt("Who's loving you?", 'Anastasia');
 alert(`${MyLove} falls in love with you!`);
 
 let being;
 being = prompt("Who are you?");
-alert(`I am actually ${being}`);*/
+alert(`I am actually ${being}`);
 
-// result = confirm("Are you this dummy and pretty kitty here? 🐈");
-
+result = confirm("Are you this dummy and pretty kitty here? 🐈");
+*/
 
 /*
 let LoveQuestion = prompt(`Do you love me? pick (yes/no)`);
@@ -53,5 +54,58 @@ if (age > 18){
 (WarQuestion === String(1939)) ?
     alert(`You are right! Well done!`) :
     alert(`You are wrong... try it again!`);*/
+
+// WHILE
+/*let et = 1;
+while (et < 3){
+    alert(et);
+    ++et;
+}*/
+
+// DO WHILE
+/*
+let et;
+do {
+    prompt(`Would you marry me?`, et);
+} while(et !== `yes`);*/
+
+// FOR
+/*
+let x = 0;
+for (x = 0; x<=4; x++){
+    alert(x);
+}
+alert(x);*/
+
+// INFINITE FOR
+/*
+for (;;){
+    alert(`I love you ^^!`);
+}*/
+
+/*let sum = 0;
+while (true) {
+    let value = prompt(`To count - press the number button!`);
+
+    if (value === ``)break;
+
+    sum += value;
+}
+alert(`Equals = ${sum}`);*/
+
+/*
+let word = `I love you, too!`;
+while (true) {
+    let value = prompt(`Do you love me>>>?`);
+    if (value === `yes`)break;
+}
+alert(word);
+*/
+
+// CONTINUE
+/*for (let i = 0; i < 10; i++) {
+    if (i % 2 === 0) continue;
+    alert(i);
+}*/
 
 
