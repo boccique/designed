@@ -49,4 +49,9 @@ if (age > 18){
     alert(AcceptableAge);
 }*/
 
+/*let WarQuestion = prompt(`When WW2 begins?`, ``);
+(WarQuestion === String(1939)) ?
+    alert(`You are right! Well done!`) :
+    alert(`You are wrong... try it again!`);*/
+
 
