@@ -28,7 +28,7 @@ if(name === name){
     alert(`Hello, ${name}! And welcome to our website!`);
 }*/
 
-let LoveQuestion = prompt(`Do you love me?`)
+let LoveQuestion = prompt(`Do you love me? pick(yes/yes)`)
 if(LoveQuestion === `yes`){
     alert(`I love you too, baby!`);
 }else{
