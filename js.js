@@ -108,4 +108,22 @@ alert(word);
     alert(i);
 }*/
 
+// for (let i = 0; i <= 10; i+=2) alert(i)
 
+/*let i = 0;
+while (i < 3){
+    alert(`number: ${i}`);
+    i++;
+}*/
+
+let i = 7+7;
+switch (i){
+    case 4:
+        alert(`TOO LOW`);
+        break;
+    case 10:
+        alert(`ALMOST`);
+        break;
+    case 14:
+        alert(`YOU ARE RIGHT!!!`)
+}
