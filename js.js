@@ -132,8 +132,72 @@ switch (i){
 */
 
 // Function
+/*
 let Myname = `John`;
 function ShowMyName(){
     alert(`Your name is ${Myname}`);
 }
-ShowMyName()
+ShowMyName()*/
+
+/*
+function sum(x, y){
+    return x + y;
+}
+function subtract(x, y){
+    return x-y;
+}
+function miltyply(x,y){
+    return x*y;
+}
+function divide(x,y){
+    return x / y;
+}
+alert(sum(2, 7))
+alert(subtract(2, 7))
+alert(miltyply(2, 7))
+alert(divide(2, 7))
+*/
+
+/*
+function IsEvenOrOdd(X){
+    X = prompt(X);
+    if (X % 2 === 0){
+        alert(`This number is even!`);
+    }else{
+        alert(`This number is odd!`);
+    }
+}
+IsEvenOrOdd();*/
+
+/*function IsEvenOrOdd(X){
+    X = prompt(X);
+    X % 2 === 0 ? alert(`This number is even!`) : alert(`This number is odd!`);
+}
+IsEvenOrOdd();*/
+
+// FUNCTION EXPRESSION
+/*
+let IsEvenOrOdd = function(x){
+    x = prompt(`Enter your number to learn even it or odd:`, x);
+    x % 2 === 0 ? alert(`Your number is even!`) : alert(`Your number is odd!`);
+};
+IsEvenOrOdd();*/
+
+// FUNCTION ARROW
+// /*const age = function(x){
+//     x = prompt(`What's your actual age?`);
+//     alert(`Your actual age is ${x}`);
+// };
+// age();*/
+// it is function expression
+
+// const age = (x) => alert(`Your age is ${x}`);
+// age(prompt(`What's your actual age?`));
+
+// const age = (x) => {
+//     x = prompt(`What's your age?`);
+//     alert(`Your age is ${x}`);
+// };
+// age();
+
+
