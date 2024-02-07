@@ -116,6 +116,8 @@ while (i < 3){
     i++;
 }*/
 
+// SWITCH
+/*
 let i = 7+7;
 switch (i){
     case 4:
@@ -127,3 +129,11 @@ switch (i){
     case 14:
         alert(`YOU ARE RIGHT!!!`)
 }
+*/
+
+// Function
+let Myname = `John`;
+function ShowMyName(){
+    alert(`Your name is ${Myname}`);
+}
+ShowMyName()

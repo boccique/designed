@@ -1,12 +1,14 @@
 *{
     font-family: Nunito, serif;
-    background: #ecdada;
+    background: #262624;
 }
 
 p{
+    color: bisque;
     font-size: 2em;
     /*border: ;*/
     display: flex;
     width: 500px;
     margin: 22.5%;
+    text-shadow: 2px 2px rgba(240, 255, 255, 0.38);
 }
