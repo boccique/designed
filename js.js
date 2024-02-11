@@ -212,6 +212,7 @@ alert( something.age )
 
 alert(typeof something)*/
 
+/*
 let something = {
     name: prompt(`what's your name?`),
     age: prompt(`what's your age?`)
@@ -219,4 +220,42 @@ let something = {
 
 alert(`Your name is ${something.name}`);
 alert(`And you are ${something.age} years old`);
+*/
 
+/*
+let money = prompt(`How much money do you have?`, 'money')
+let something = {
+    do$something: 'run!',
+    "OLE OLE OLE": null,
+    age: 24,
+    [money]: 50000,
+};
+
+alert(something.money)
+
+let x = prompt(`What do you want to know?`, 'age')
+alert(something[x])
+
+alert(something.do$something)
+alert(something["OLE OLE OLE"])
+*/
+
+// does not work
+/*
+function UserCreation(name, age, bank$account){
+    return {
+        name,
+            age,
+            bank$account,
+    };
+}
+let user = prompt(`enter your name, age and bank$account you want to have like this: John 23 3000`)
+*/
+
+const something = {
+    age: null,
+    name: null,
+    lalala: `lalala`,
+};
+
+alert(`lalala` in something)
