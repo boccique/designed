@@ -1,3 +1,4 @@
+"use strict";
 /*
 let name = "John";
 admin = name;
@@ -184,11 +185,11 @@ let IsEvenOrOdd = function(x){
 IsEvenOrOdd();*/
 
 // FUNCTION ARROW
-// /*const age = function(x){
-//     x = prompt(`What's your actual age?`);
-//     alert(`Your actual age is ${x}`);
-// };
-// age();*/
+/*const age = function(x){
+    x = prompt(`What's your actual age?`);
+    alert(`Your actual age is ${x}`);
+};
+age();*/
 // it is function expression
 
 // const age = (x) => alert(`Your age is ${x}`);
