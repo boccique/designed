@@ -201,4 +201,22 @@ age();*/
 // };
 // age();
 
+// OBJECTS
+/*let age;
+let something = {
+    name: name = prompt(`what's your name?`, name),
+    age: age = prompt(`what's your age?`)
+};
+alert( something.name )
+alert( something.age )
+
+alert(typeof something)*/
+
+let something = {
+    name: prompt(`what's your name?`),
+    age: prompt(`what's your age?`)
+};
+
+alert(`Your name is ${something.name}`);
+alert(`And you are ${something.age} years old`);
 
