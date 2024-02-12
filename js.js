@@ -261,4 +261,37 @@ const something = {
 
 alert(`lalala` in something)*/
 
-alert(typeof NaN)
+let CatHouse = {
+    cat1: `Richy`,
+    cat2: `Simon`,
+    cat3: `Dwolla`,
+};
+
+let DogHouse = {
+    dog1: `Adolf`,
+    dog2: `Eva`,
+    dog3: `Abraham`,
+}
+
+Object.assign(CatHouse, DogHouse)
+
+for (let key in CatHouse){
+    console.log(CatHouse[key])
+}
+
+/*
+
+/!*for (let cat in CatHouse){
+    alert(cat);
+    alert(CatHouse[cat]);
+}*!/
+
+let cat = {};
+for (let key in CatHouse){
+    cat[key] = CatHouse[key]
+}
+
+cat.cat1 = `Antony`
+
+alert(cat.cat1)
+alert(CatHouse.cat1)*/
