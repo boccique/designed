@@ -252,10 +252,13 @@ function UserCreation(name, age, bank$account){
 let user = prompt(`enter your name, age and bank$account you want to have like this: John 23 3000`)
 */
 
+/*
 const something = {
     age: null,
     name: null,
     lalala: `lalala`,
 };
 
-alert(`lalala` in something)
+alert(`lalala` in something)*/
+
+alert(typeof NaN)
