@@ -138,8 +138,32 @@ header{
 }
 
 
+/*MAIN SECTION*/
 
-
+.service-section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1700px;
+    left: 200px;
+    top: 100px;
+}
+.service-text-section{
+    padding-left: 10px;
+    padding-right: 226px;
+    display: flex;
+    flex-direction: column;
+}
+.service-text-main-section{
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+}
+.service-text-additional-section{
+    font-weight: 500;
+    font-size: 20px;
+    color: #828282;
+}
 
 
 
