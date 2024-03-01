@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78955529-277d-4a03-b22a-40e44420524f" name="Changes" comment="" />
+    <list default="true" id="78955529-277d-4a03-b22a-40e44420524f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landings/Plant shop (daunku)/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/landings/Plant shop (daunku)/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landings/Plant shop (daunku)/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/landings/Plant shop (daunku)/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +86,9 @@
       <workItem from="1709211742342" duration="667000" />
       <workItem from="1709214593485" duration="8321000" />
       <workItem from="1709230881086" duration="386000" />
+      <workItem from="1709231300979" duration="86000" />
+      <workItem from="1709231404222" duration="3583000" />
+      <workItem from="1709299252161" duration="4845000" />
     </task>
     <servers />
   </component>
