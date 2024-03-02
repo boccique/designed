@@ -139,7 +139,9 @@ header{
 
 
 /*MAIN SECTION*/
-
+main{
+    height: 1000px;
+}
 .service-section{
     position: relative;
     display: flex;
@@ -164,19 +166,111 @@ header{
     font-size: 20px;
     color: #828282;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.best-seller-product{
+    position: relative;
+    left: 200px;
+    width: 1500px;
+    height: 634px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+.best-seller-product-text-section{
+    display: flex;
+    flex-direction: column;
+    width: 363px;
+    height: 300px;
+}
+.best-seller-product-text-main-section{
+    font-weight: 500;
+    font-size: 64px;
+    color: #000000;
+    font-family: "Work Sans", sans-serif;
+}
+.best-seller-product-text-additional-section{
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4f4f4f;
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.arrow{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+.best-seller-product-card-section{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.card{
+    background: #c1d0e4;
+    height: 510px;
+    width: 329px;
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+.card-price-section{
+    display: flex;
+    height: 260px;
+    width: 329px;
+    background: #ffffff;
+    border-radius: 50px;
+}
+#plant-one{
+    top: 250px;
+    left: 600px;
+    width: 306px;
+    height: 320px;
+    z-index: 10;
+    position: relative;
+}
+#plant-two{
+    top: 250px;
+    left: 650px;
+    width: 306px;
+    height: 320px;
+    z-index: 9;
+    position: relative;
+}
+#plant-three{
+    top: 250px;
+    left: 700px;
+    width: 306px;
+    height: 320px;
+    z-index: 10;
+    position: relative;
+}
+#eclipse-one{
+    top: 1830px;
+    left: 1420px;
+    width: 102px;
+    height: 33px;
+    z-index: 9;
+    position: absolute;
+}
+#eclipse-two{
+    top: 1830px;
+    left: 1068px;
+    width: 102px;
+    height: 33px;
+    z-index: 9;
+    position: absolute;
+}
+#eclipse-three{
+    top: 1830px;
+    left: 700px;
+    width: 102px;
+    height: 33px;
+    z-index: 10;
+    position: absolute;
+}
 
 
 
